@@ -1,11 +1,16 @@
 import React from "react";
 import { Button, View } from "react-native";
-import Navbar from "@/components/Header";
+import Header from "@/components/Header";
+import styles from "./design";
+import Advertisement from "@/components/Advertisement";
+import Services from "@/components/Services";
 
 export default function Home(){
     return(
-        <View>
-            <Navbar></Navbar>
+        <View style = {styles.appContainer}>
+            <Header></Header>
+            <Advertisement></Advertisement>
+            <Services></Services>
         </View>
     )
 }
