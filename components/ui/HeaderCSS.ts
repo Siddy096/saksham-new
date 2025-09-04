@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "space-between",
         padding: 10,
-        marginTop: 15
+        marginTop: 15,
     },
     cartimage: {
         width: 30,
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     },
     locationText: {
         fontSize: 20,
-        fontWeight: "600"
+        fontWeight: "600",
     },
     searchBar: {
         marginVertical: 8,
@@ -30,7 +30,8 @@ const styles = StyleSheet.create({
         shadowRadius: 3,
         elevation: 2, 
         marginRight: 10,
-        marginLeft: 10
+        marginLeft: 10,
+        marginBottom: 20
     }
 });
 
